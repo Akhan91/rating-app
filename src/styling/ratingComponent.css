@@ -1,0 +1,45 @@
+.rating-numbers {
+  margin-left: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-color: #646cff;
+  margin-bottom: 0.7rem;
+}
+
+.rating-numbers:hover,
+.rating-numbers:focus,
+.rating-numbers:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  border-color: #8187ed;
+  background-color: #646cff;
+  border-width: 1px;
+}
+
+/* Styles for disabled buttons */
+.voting-button[disabled] {
+  cursor: not-allowed;
+}
+
+.voting-button {
+  width: 8rem;
+  height: 3.5rem;
+}
+
+.voting-button:hover {
+  border-color: #8187ed;
+  background-color: #5e65e9;
+  border-width: 2px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.not-voted-text {
+  /* margin: 0; */
+}
